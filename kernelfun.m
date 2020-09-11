@@ -1,5 +1,6 @@
 function omega = kernelfun(Xtrain,kerfPara,Xt)
-% All inputs are row vectors.
+Xtrain=Xtrain';
+Xt=Xt';
 
 % Construct the positive (semi-) definite and symmetric kernel matrix
 %
