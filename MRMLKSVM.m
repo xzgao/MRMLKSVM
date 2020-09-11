@@ -1,8 +1,8 @@
 function [pre] = MRMLKSVM(number1,number2,xxx,Temp,opt,sigma)
 %%%%%%%
-%number1£ºThe first class data.
-%number2£ºThe second class data.
-%xxx£ºThe number of training samples.
+%number1Â£ÂºThe first class data.
+%number2Â£ÂºThe second class data.
+%xxxÂ£ÂºThe number of training samples.
 %%%%%%%%
 
 r = 6;
@@ -23,8 +23,9 @@ NUM = 20 % Number of iterations
 myeps=1e-3;
 train_num=2*xxx;     % Total number of training samples.
 
-%%% ½»²æÑéÖ¤
-I=I1(:,1:xxx);   % Extract the first "xxx" samples as the training set. J=J1(:,1:xxx);
+%%% Â½Â»Â²Ã¦Ã‘Ã©Ã–Â¤
+I=I1(:,1:xxx);   % Extract the first "xxx" samples as the training set. 
+J=J1(:,1:xxx);
 
 %%%%%%
 %Initialization
